@@ -21,5 +21,12 @@ describe('testing FizzBuzz', () => {
 
         let result = fbTest(n); 
         expect (result).toEqual(expected); 
+    }) 
+    test("If n divisible by 3 and 5, return FizzBuzz instead of number", () => {
+        let n = 15; 
+        let expected = [1,2,"Fizz",4,"Buzz","Fizz",7,8,"Fizz","Buzz",11,"Fizz",13,14,"FizzBuzz"]; 
+
+        let result = fbTest(n); 
+        expect (result).toEqual(expected); 
     })
 })

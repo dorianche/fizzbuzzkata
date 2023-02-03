@@ -2,17 +2,15 @@ const fizzBuzz = (n) => {
 
     let fbArray = []; 
 
-    for (let i =1; i<=n; i++) {
-        
-        if (i%3 ===0) {
-            fbArray.push("Fizz") 
+    for (let i =1; i<=n; i++) { 
 
-        } else if (i%5 ===0) {
-            fbArray.push("Buzz")
-           
-        } else {
-            fbArray.push(i)
-        }
+        let m =""; 
+        
+        if (i%3 ===0) m+= "Fizz"; 
+        if (i%5 ===0) m+= "Buzz"; 
+        if (m === '') m= i; 
+
+        fbArray.push(m)
     }  
 
     return fbArray
