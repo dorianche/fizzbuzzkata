@@ -1,0 +1,23 @@
+{
+  "name": "fizzbuzzkata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dorianche/fizzbuzzkata.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dorianche/fizzbuzzkata/issues"
+  },
+  "homepage": "https://github.com/dorianche/fizzbuzzkata#readme",
+  "devDependencies": {
+    "jest": "^29.4.1"
+  }
+}

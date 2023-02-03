@@ -1,0 +1,1 @@
+const fbTest = require("./fizzbuzz")
